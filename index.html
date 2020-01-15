@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content=""><meta name="keywords" content=""><meta name="author" content="Siamese"><meta name="copyright" content="Siamese"><title>暹罗猫的小屋</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><script>var GLOBAL_CONFIG = { 
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content=""><meta name="keywords" content=""><meta name="author" content="Siamese"><meta name="copyright" content="Siamese"><title>暹罗猫的小屋</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.6.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.6.1"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><link rel="manifest" href="/manifest.json"><link rel="manifest" href="/manifest.json"><script>var GLOBAL_CONFIG = { 
   root: '/',
   algolia: undefined,
   localSearch: undefined,
@@ -65,7 +65,7 @@
 <li><p>针对kernel的exp编译方式</p>
 <ul>
 <li><p>方法一：挂在后编译</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo mount file_system_dir aim_dir # 把目标架构的文件系统挂载</span><br><span class="line">cd aim_dir                                              # 进入目标文件系统</span><br><span class="line">gcc aim.c -o aim                                    # 编译目标exp</span><br><span class="line">sudo umount aim_dir                           # 取消挂在</span><br></pre></td></tr></table></figure>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">sudo mount file_system_dir aim_dir <span class="comment"># 把目标架构的文件系统挂载</span></span><br><span class="line">cd aim_dir            <span class="comment"># 进入目标文件系统</span></span><br><span class="line">gcc aim.c <span class="literal">-o</span> aim          <span class="comment"># 编译目标exp</span></span><br><span class="line">sudo umount aim_dir           <span class="comment"># 取消挂载</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>方法二：脚本传进去</p>
 </li>
